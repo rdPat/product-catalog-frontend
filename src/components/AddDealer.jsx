@@ -27,7 +27,7 @@ const AddDealer = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:8080/api/dealer",
+        "http://localhost:8080/api/dealer/add",
         dealer,
         {
           headers: { "Content-Type": "application/json" },
