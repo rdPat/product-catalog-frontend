@@ -170,6 +170,11 @@ const Navbar = ({ onSelectCategory, onSearch }) => {
                     Add Dealer
                   </Link>
                 </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/dealer_search">
+                    Search Dealer
+                  </Link>
+                </li>
 
 
 

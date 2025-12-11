@@ -6,6 +6,7 @@ import Cart from "./components/Cart";
 import AddProduct from "./components/AddProduct";
 import Product from "./components/Product";
 import AddDealer from "./components/AddDealer";
+import DealerSearch from "./components/DealerSearch";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { AppProvider } from "./Context/Context";
@@ -57,6 +58,7 @@ function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/product/update/:id" element={<UpdateProduct />} />
           <Route path="/add_dealer" element={<AddDealer />} />
+           <Route path="/dealer_search" element={<DealerSearch />} />
         </Routes>
       </BrowserRouter>
     </AppProvider>

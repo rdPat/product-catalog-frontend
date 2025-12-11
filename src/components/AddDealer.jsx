@@ -201,7 +201,7 @@ const AddDealer = () => {
                 type="submit"
                 className="btn btn-light"
                 style={{
-                  backgroundColor: "#d3d3d3",
+                  backgroundColor: "#75e5f1ff",
                   borderColor: "#d3d3d3",
                   color: "black",
                   width: "200px",

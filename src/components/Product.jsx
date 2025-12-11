@@ -2,7 +2,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { useContext, useEffect } from "react";
 import { useState } from "react";
 import AppContext from "../Context/Context";
-import axios from "../axios";
+import axios from "../axios"; 
 import UpdateProduct from "./UpdateProduct";
 const Product = () => {
   const { id } = useParams();
